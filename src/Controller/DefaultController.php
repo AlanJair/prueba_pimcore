@@ -30,4 +30,9 @@ class DefaultController extends FrontendController
     {
         return $this->render('default/principal.html.twig');
     }
+
+    public function secundariaAction(Request $request): Response
+    {
+        return $this->render('default/secundaria.html.twig');
+    }
 }

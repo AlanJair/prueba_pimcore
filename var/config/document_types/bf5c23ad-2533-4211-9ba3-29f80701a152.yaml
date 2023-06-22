@@ -1,0 +1,14 @@
+pimcore:
+    documents:
+        doc_types:
+            definitions:
+                bf5c23ad-2533-4211-9ba3-29f80701a152:
+                    name: Hola
+                    group: ''
+                    controller: 'App\Controller\DefaultController::secundariaAction'
+                    template: null
+                    type: page
+                    priority: 0
+                    creationDate: 1687474737
+                    modificationDate: 1687474774
+                    staticGeneratorEnabled: false
